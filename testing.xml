@@ -1,0 +1,9 @@
+<suite name="SwagLabSuite">
+    <test name="AllTests">
+        <classes>
+           
+           <class name="testcases.LoginTest"/>      
+             
+</classes>
+    </test>
+</suite>
