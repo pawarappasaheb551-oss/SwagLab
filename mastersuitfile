@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterSuite">
+    <suite-files>
+    
+    
+        <suite-file path="testing.xml"/>
+         <suite-file path="Crossbrowsingtesting.xml"/>
+        
+         
+    </suite-files>
+</suite>

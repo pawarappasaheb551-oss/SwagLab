@@ -1,0 +1,28 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+	datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<start>
+		<ref name="suiteContent" />
+	</start>
+	<define name="suiteContent">
+		<element name="suite">
+			<ref name="testContent" />
+			<attribute name="name" />
+		</element>
+	</define>
+	<define name="testContent">
+		<element name="test">
+			<ref name="classesContent" />
+			<attribute name="name" />
+		</element>
+	</define>
+	<define name="classesContent">
+		<element name="classes">
+			<ref name="classContent" />
+		</element>
+	</define>
+	<define name="classContent">
+		<element name="class">
+			<attribute name="name" />
+		</element>
+	</define>
+</grammar>

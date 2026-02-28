@@ -99,7 +99,7 @@
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/selenium-java-4.35.0/selenium-safari-driver-4.35.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/selenium-java-4.35.0/selenium-support-4.35.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Downloads/selenium-java-4.35.0/selenium-support-4.35.0-sources.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>

@@ -1,9 +1,13 @@
-<suite name="SwagLabSuite">
-    <test name="AllTests">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
+
+<suite name="AllTest">
+
+    <test name="SwagLabTest">
         <classes>
-           
-           <class name="testcases.LoginTest"/>      
-             
-</classes>
+			<class name="testcases.LoginTest"/>
+            <class name="testcases.LogoutTest"/>
+               <class name="testcases.CheckOutFlowTest"/>
+        </classes>
     </test>
+
 </suite>
