@@ -1,13 +1,12 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
 
-<suite name="AllTest">
-
-    <test name="SwagLabTest">
+<suite name="SwagLabDemoSuite">
+    <test name="LoginTests">
+        <parameter name="browser" value="chrome"/>
         <classes>
-			<class name="testcases.LoginTest"/>
+            <class name="testcases.LoginTest"/>
             <class name="testcases.LogoutTest"/>
-               <class name="testcases.CheckOutFlowTest"/>
+            <class name="testcases.CheckoutPageTest"/>
+            <class name="testcases.Manullyfillfieldcheckout"/>
         </classes>
     </test>
-
 </suite>

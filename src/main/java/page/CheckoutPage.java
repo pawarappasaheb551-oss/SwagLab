@@ -4,7 +4,7 @@ import org.openqa.selenium.*;
 
 public class CheckoutPage {
 
-    WebDriver driver;
+    protected WebDriver driver;
 
     By firstName = By.id("first-name");
     By lastName = By.id("last-name");
